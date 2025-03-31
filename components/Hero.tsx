@@ -9,7 +9,7 @@ export default function Hero() {
         width="2880"
         height="1286"
         alt="Hero"
-        loading="lazy"
+        priority={true}
       />
       <Image
         className="block md:hidden"
@@ -17,7 +17,7 @@ export default function Hero() {
         width="786"
         height="580"
         alt="Hero"
-        loading="lazy"
+        priority={true}
       />
     </section>
   );
